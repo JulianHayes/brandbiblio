@@ -3,119 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Micropedia Style</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheet.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      display: flex;
-      height: 100vh;
-      background: #f5f5f5;
-    }
-    /* Left Navigation */
-    .left-panel {
-      width: 10%;
-      background: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 0;
-      border-right: 1px solid #e0e0e0;
-    }
-    .left-panel .icon {
-      font-size: 24px;
-      cursor: pointer;
-    }
-    /* Centre Content */
-    .centre-panel {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    .centre-panel h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .centre-panel p {
-      font-size: 1rem;
-      margin-bottom: 20px;
-      color: #666;
-    }
-    .search-bar {
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-      border: 1px solid #ccc;
-      border-radius: 25px;
-      width: 60%;
-      max-width: 400px;
-    }
-    .search-bar input {
-      flex: 1;
-      border: none;
-      outline: none;
-      font-size: 1rem;
-    }
-    .search-bar input::placeholder {
-      color: #999;
-    }
-    /* Right Categories */
-    .right-panel {
-      width: 20%;
-      display: flex;
-      flex-direction: column;
-    }
-    .category {
-      flex: 1;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      writing-mode: vertical-rl;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-    .category:nth-child(1) { background: #5b0f0f; }
-    .category:nth-child(2) { background: #7b1c1c; }
-    .category:nth-child(3) { background: #9c2727; }
-    .category:nth-child(4) { background: #b73737; }
-    .category:nth-child(5) { background: #d84b4b; }
-    .category:nth-child(6) { background: #f06161; }
-  </style>
+  <title>BRAND BIBLIO</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Left Navigation -->
-  <div class="left-panel">
-    <div class="icon">☰</div>
-    <div class="icon">+</div>
-    <div class="icon">🔍</div>
-  </div>
+  <header>
+    <h1>BRAND BIBLIO</h1>
+    <p>Your go-to spot for everything related to brand strategy and marketing.</p>
+  </header>
 
-  <!-- Centre Content -->
-  <div class="centre-panel">
-    <h1>The Micropedia</h1>
-    <p>Start browsing this resource to learn more about microaggressions and their impact.</p>
-    <div class="search-bar">
-      <input type="text" placeholder="e.g. I don’t see colour">
-    </div>
-  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#knowledge">Core Knowledge Areas</a></li>
+      <li><a href="#resources">Practical Resources</a></li>
+      <li><a href="#heretics">Brand Heretics</a></li>
+      <li><a href="#trends">Insights & Trends</a></li>
+      <li><a href="#explore">Search & Explore</a></li>
+    </ul>
+  </nav>
 
-  <!-- Right Categories -->
-  <div class="right-panel">
-    <div class="category">2SLGBTQ+</div>
-    <div class="category">Age</div>
-    <div class="category">Class-Based</div>
-    <div class="category">Disability</div>
-    <div class="category">Ethnicity</div>
-    <div class="category">Gender</div>
-  </div>
+  <main class="content">
+    <section id="home" class="section">
+      <h2>Home Page</h2>
+      <p>This is the main entrance to a wealth of brand knowledge.</p>
+    </section>
+
+    <section id="knowledge" class="section">
+      <h2>Core Knowledge Areas</h2>
+      <p>A brief introduction to what this resource offers and the valuable insights available:</p>
+      <ul>
+        <li><strong>Quick Access Links:</strong> Easy shortcuts to popular sections such as "Getting Started," "Essentials for Brand Managers," and "Brand Strategy Classics."</li>
+        <li><strong>Search Bar:</strong> A handy tool that lets you jump straight to specific topics.</li>
+        <li><strong>Featured Articles:</strong> A showcase of new and highlighted pieces, updated weekly for fresh insights.</li>
+      </ul>
+    </section>
+
+    <section id="resources" class="section">
+      <h2>Practical Resources (Toolkits)</h2>
+      <ul>
+        <li><strong>Strategy Templates:</strong> Downloadable templates for brand positioning, customer personas, and more.</li>
+        <li><strong>Guides & Checklists:</strong> Easy-to-follow guides and checklists for essential branding processes.</li>
+        <li><strong>Case Study Vault:</strong> A library of case studies that includes successful examples and lessons learned.</li>
+      </ul>
+    </section>
+
+    <section id="heretics" class="section">
+      <h2>Brand Heretics</h2>
+      <ul>
+        <li><strong>Alternative Perspectives:</strong> Articles that question traditional branding rules.</li>
+        <li><strong>Interviews with Heretics:</strong> Insights from leaders sharing fresh approaches to branding.</li>
+        <li><strong>Heretic's Tools:</strong> Exercises designed to encourage innovative thinking about branding.</li>
+      </ul>
+    </section>
+
+    <section id="trends" class="section">
+      <h2>Insights & Trends</h2>
+      <ul>
+        <li><strong>Market Trends:</strong> Discover shifts in consumer behaviour and emerging strategies.</li>
+        <li><strong>Thought Pieces:</strong> Brief articles on new ideas and trends in the industry.</li>
+        <li><strong>Industry News:</strong> Quick updates on significant events within the sector.</li>
+      </ul>
+    </section>
+
+    <section id="explore" class="section">
+      <h2>Search & Explore</h2>
+      <ul>
+        <li><strong>Keyword Search:</strong> Easily find specific topics.</li>
+        <li><strong>Explore by Theme:</strong> Browse themes such as "Brand Innovation" and "Sustainability" for curated articles.</li>
+        <li><strong>Curated Collections:</strong> Lists like "Must-Reads for New Brand Managers" or "Top Brand Strategy Models."</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BRAND BIBLIO. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 </body>
 </html>
