@@ -23,8 +23,8 @@ body {
   cursor: pointer;
 }
 
-/* Centre Content */
-.centre-panel {
+/* Center Content */
+.center-panel {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -33,13 +33,13 @@ body {
   text-align: center;
 }
 
-.centre-panel h1 {
+.center-panel h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.centre-panel p {
+.center-panel p {
   font-size: 1rem;
   margin-bottom: 20px;
   color: #666;
